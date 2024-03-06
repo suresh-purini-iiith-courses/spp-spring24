@@ -1,0 +1,1 @@
+gcc -O3 -march=native -ftree-vectorize -funroll-loops -ffast-math -mavx2 -mfma dotp_flops.c -o dotp_flops
